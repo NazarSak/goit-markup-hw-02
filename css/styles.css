@@ -1,12 +1,3 @@
-/* .logo{
-  font-family: "Raleway";
-font-style: normal;
-font-weight: 700;
-font-size: 26px;
-line-height: 31px;
-/* identical to box height */
-
-
 :root{
   --first-text-color: #212121;
   --secondary-text-color: #2196F3;
@@ -16,6 +7,8 @@ line-height: 31px;
   --background-ligt-color: #F5F4FA;
   --only-black-color:#000000;
   --last-light-color:#ffffff99;
+  --background-general-color:#F5F5F5;
+  --main-color: #EEEEEE;
 }
  
 .body{
@@ -46,7 +39,7 @@ text-decoration: none;
 }
 
 .logo-web{
-  font-family: 'Raleway', sans-serif;
+font-family: 'Raleway', sans-serif;
 font-weight: 700;
 font-size: 26px;
 line-height:1.2;
@@ -99,6 +92,10 @@ text-decoration:none;
 background-color:var(--background-text-color)  
 }
 
+.main{
+color:var(--main-color);
+}
+
 .first-large-words{
   font-weight: 900;
   font-size: 44px;
@@ -115,7 +112,7 @@ line-height: 1.9;
 color:var(--white-text-color);
 letter-spacing: 0.06em;
 background-color:var(--secondary-text-color);
-font-family: inherit
+font-family: inherit;
 }
 /* second-section */
 
@@ -183,6 +180,8 @@ color:var(--third-text-color);
 }
 
 .maps{
+font-family: 'Roboto', sans-serif;
+font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height:1.7;
@@ -191,7 +190,11 @@ color:var(--background-ligt-color);
 text-decoration: none;
 }
 
+
+
 .footer-inf{
+font-family: 'Roboto', sans-serif;
+font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height:1.7;
@@ -200,5 +203,45 @@ color: #ffffff99;
 text-decoration: none;
 color:var(--last-light-color);
 }
+/* Second-page */
 
+.header-btn-other{
+  font-weight: 500;
+  font-size: 16px;
+  line-height:1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color:var(--first-text-color);
+  background-color:var(--background-ligt-color);
+}
+
+.header-btn-other:hover,
+.header-btn-other:focus{
+  color:var(--white-text-color);
+  background-color: var(--secondary-text-color);
+}
+
+.photo-words{
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color:var(--first-text-color);
+}
+
+.under-photo-words{
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+letter-spacing: 0.03em;
+color:var(--third-text-color);
+}
+
+.section-three{
+color: var(--main-color);
+}
+
+.photo-section .hero-section{
+color: var(--background-general-color);
+}
 
