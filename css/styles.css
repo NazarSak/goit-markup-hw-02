@@ -20,7 +20,7 @@ font-family: 'Roboto', sans-serif;
 font-size: 14px;
 line-height:1.7;
 letter-spacing: 0.03em;
-color:var(--third-text-color);
+background-color:var(--white-text-color);
 }
 
 .list{
@@ -32,6 +32,7 @@ header{
 }
 
 .logo{
+ font-family: 'Raleway', sans-serif;
 font-weight: 700;
 font-size: 26px;
 line-height:1.2;
@@ -40,7 +41,13 @@ color:var(--only-black-color);
 text-decoration: none;
 }
 
+.current{
+color: var(--secondary-text-color);
+}
+
+
 .logo-one{
+  font-family: 'Raleway', sans-serif;
 font-weight: 700;
 font-size: 26px;
 line-height:1.2;
@@ -51,11 +58,6 @@ text-decoration: none;
 
 
 .logo-web{
-font-family: 'Raleway', sans-serif;
-font-weight: 700;
-font-size: 26px;
-line-height:1.2;
-letter-spacing: 0.03em;
 color:var(--secondary-text-color);
 text-decoration: none;
 }
@@ -140,6 +142,7 @@ font-size: 36px;
 line-height: 1.2;
 letter-spacing: 0.03em;
 color:var(--background-text-color);
+text-align: center;
 }
 
 /* Third-section */
@@ -161,7 +164,6 @@ text-align: center;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.2;
-letter-spacing: 0.03em;
 color:var(--first-text-color);
 }
 
@@ -169,7 +171,6 @@ color:var(--first-text-color);
 
 font-size: 16px;
 line-height: 1.2;
-letter-spacing: 0.03em;
 color:var(--third-text-color);
 }
 
@@ -192,12 +193,10 @@ text-decoration: none;
 
 
 .footer-inf{
-font-family: 'Roboto', sans-serif;
-font-style: normal;
-font-weight: 400;
+
 font-size: 14px;
 line-height:1.7;
-letter-spacing: 0.03em;
+
 text-decoration: none;
 color:var(--last-light-color);
 }
@@ -205,6 +204,7 @@ color:var(--last-light-color);
 
 .header-btn-other{
   font-weight: 500;
+  font-family: inherit;
   font-size: 16px;
   line-height:1.6;
   text-align: center;
@@ -229,10 +229,8 @@ color:var(--first-text-color);
 }
 
 .under-photo-words{
-font-weight: 400;
 font-size: 16px;
 line-height:1.9;
-letter-spacing: 0.03em;
 color:var(--third-text-color);
 }
 
@@ -246,4 +244,8 @@ color: var(--background-general-color);
 
 .description-second-page{
   text-decoration: none;
+}
+
+address{
+font-style: normal;
 }
